@@ -89,4 +89,5 @@ class CryptographyManagerImpl : CryptographyManager {
     override fun decryptData(cipherText: ByteArray, cipher: Cipher): String {
         val plainText = cipher.doFinal(cipherText)
         return String(plainText, Charsets.UTF_8)
-    
+    }
+}
