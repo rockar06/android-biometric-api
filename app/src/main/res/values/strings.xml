@@ -5,4 +5,5 @@
     <string name="text_hint_message">Introduce text to encrypt</string>
     <string name="encrypt_button">Encrypt</string>
     <string name="decrypt_button">Decrypt</string>
+    <string name="fab_content_description">Encrypt/Decrypt button</string>
 </resources>
