@@ -11,10 +11,11 @@
         layout="@layout/biometric_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/cryptoLayoutView"
+        app:layout_constraintBottom_toTopOf="@+id/layoutCrypto"
         app:layout_constraintTop_toTopOf="parent" />
 
     <include
+        android:id="@+id/layoutCrypto"
         layout="@layout/crypto_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
